@@ -3,7 +3,7 @@ require_relative "testing_library"
 celebs = ["Britney", "Miley", "Madonna", "Cher", "Bruno", "Michael"]
 
 def how_many_celebrities(celebs)
-  
+  celebs.length
 end
 
 
