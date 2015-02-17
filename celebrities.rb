@@ -13,7 +13,7 @@ end
 
 
 def reverse_celebrity_names(celebs)
-
+  celebs.map {|celeb| celeb.reverse}
 end
 
 
