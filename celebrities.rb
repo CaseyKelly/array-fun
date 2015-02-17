@@ -30,7 +30,7 @@ end
 
 
 def reverse_case_celebrities_names(celebs)
-
+  celebs.map {|celeb| celeb.swapcase}
 end
 
 
