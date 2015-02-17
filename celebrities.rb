@@ -18,7 +18,9 @@ end
 
 
 def first_three_celebrities_with_each(celebs)
-
+  celebs[0..2].each do |num|
+    puts num
+  end
 end
 
 
