@@ -25,7 +25,7 @@ end
 
 
 def first_three_celebrities_without_each(celebs)
-
+  celebs[0..2]
 end
 
 
