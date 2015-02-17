@@ -8,3 +8,4 @@ Exercise
 
 Read the source code and make the code pass! Run ruby and then the file name to test your code.
 # array-fun
+# array-fun
