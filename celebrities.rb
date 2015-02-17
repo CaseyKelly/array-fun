@@ -35,7 +35,9 @@ end
 
 
 def sum_of_all_celebrity_name_lengths(celebs)
-
+  sum = 0
+  celebs.map! {|celeb| celeb.length}
+  celebs.inject{|sum,x| sum + x }
 end
 
 
