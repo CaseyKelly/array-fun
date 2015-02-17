@@ -42,7 +42,8 @@ end
 
 
 def celebrities_with_long_names(celebs)
-
+  celebs = ["Britney", "Miley", "Madonna", "Cher", "Bruno", "Michael"]
+  celebs.map {|celeb| celeb.length > 5}
 end
 
 
