@@ -18,9 +18,7 @@ end
 
 
 def first_three_celebrities_with_each(celebs)
-  celebs[0..2].each do |num|
-    puts num
-  end
+  celebs[0..2].each { |num| puts num }
 end
 
 
@@ -30,7 +28,7 @@ end
 
 
 def reverse_case_celebrities_names(celebs)
-  celebs.map {|celeb| celeb.swapcase}
+  celebs.map(&:swapcase)
 end
 
 
